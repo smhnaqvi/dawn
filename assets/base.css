@@ -3595,3 +3595,60 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+/* Urban Oasis - minimal neutral refinements */
+body {
+  letter-spacing: 0.02rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h0,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  letter-spacing: 0.03rem;
+}
+
+.section-header {
+  backdrop-filter: blur(8px);
+}
+
+.header-wrapper {
+  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+}
+
+.header__menu-item {
+  font-size: 1.45rem;
+  letter-spacing: 0.04rem;
+}
+
+.announcement-bar__message {
+  letter-spacing: 0.06rem;
+  font-size: 1.2rem;
+}
+
+.button,
+.shopify-challenge__button,
+.customer button {
+  min-height: calc(4.8rem + var(--buttons-border-width) * 2);
+  letter-spacing: 0.04rem;
+  font-weight: 500;
+}
+
+.button--secondary {
+  --alpha-button-background: 0;
+}
+
+.footer {
+  border-top: 0.1rem solid rgba(var(--color-foreground), 0.1);
+}
+
+.footer__copyright {
+  color: rgba(var(--color-foreground), 0.7);
+}
